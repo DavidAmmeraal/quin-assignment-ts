@@ -2,14 +2,6 @@
 
 This app displays all the launches on a map within a given time frame.
 
-## Important information
-
-You'll need a token from https://www.mapbox.com/ to get the map to show. You need to create an .env file in the root of this project and add the following environment variable:
-
-```
-REACT_APP_MAPBOX_ACCESS_TOKEN=<YOUR TOKEN>
-```
-
 ## Implemented
 
 - A map showing all launches for a given timeframe, can be narrowed down using the date filters.
