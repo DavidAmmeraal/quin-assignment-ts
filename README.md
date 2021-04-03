@@ -13,7 +13,7 @@ yarn
 To develop
 
 ```
-yarn develop
+yarn start
 ```
 
 To build
