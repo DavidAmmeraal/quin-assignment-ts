@@ -2,11 +2,32 @@
 
 This app displays all the launches on a map within a given time frame.
 
+## Installing/Building/etc
+
+To install dependencies
+
+```
+yarn
+```
+
+To develop
+
+```
+yarn start
+```
+
+To build
+
+```
+yarn build
+```
+
 ## Implemented
 
 - A map showing all launches for a given timeframe, can be narrowed down using the date filters.
 - When clicking on a launch, displays basic data for launch
 - When an error occurs retrieved data from the API a (very basic) error message is shown.
+- A loading indicator is shown when data is being retrieved.
 
 ## Not implemented
 
