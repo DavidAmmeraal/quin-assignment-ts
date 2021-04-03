@@ -2,6 +2,26 @@
 
 This app displays all the launches on a map within a given time frame.
 
+## Installing/Building/etc
+
+To install dependencies
+
+```
+yarn
+```
+
+To develop
+
+```
+yarn develop
+```
+
+To build
+
+```
+yarn build
+```
+
 ## Implemented
 
 - A map showing all launches for a given timeframe, can be narrowed down using the date filters.
