@@ -1,25 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { QueryClientProvider, QueryClient } from "react-query";
+import { LaunchFilters } from "./api";
+import "./App.css";
+import { Launches } from "./Launches";
+import { LaunchesLoading } from "./LaunchesLoading";
+import { LaunchFilter } from "./LaunchFilters";
+
+const queryClient = new QueryClient();
+
+const dateStart = new Date();
+const dateEnd = new Date(new Date().setMonth(dateStart.getMonth() + 3));
+
+const filter: LaunchFilters = {
+  dateStart: new Date(),
+  dateEnd,
+};
 
 function App() {
+  const [filters, setFilters] = useState<LaunchFilters>(filter);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <div className="w-screen h-screen flex flex-col relative">
+        <LaunchFilter filter={filters} onChange={setFilters} />
+        <Launches filter={filters} />
+      </div>
+    </QueryClientProvider>
   );
 }
 

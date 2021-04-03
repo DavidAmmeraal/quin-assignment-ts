@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# QUIN Technical assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app displays all the launches on a map within a given time frame.
 
-## Available Scripts
+## Implemented
 
-In the project directory, you can run:
+- A map showing all launches for a given timeframe, can be narrowed down using the date filters.
+- When clicking on a launch, displays basic data for launch
+- When an error occurs retrieved data from the API a (very basic) error message is shown.
 
-### `yarn start`
+## Not implemented
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Possibilities to filter by agency/launch status
+- Tests, I just didn't have the time left :(
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Design choices
 
-### `yarn test`
+- I chose to get the connection to the API working first. Typescript added some overhead here.
+- I chose to put the launch retrieval functionality it it's own hook, to make it more portable.
+- There wasn't enough client state to really use any state manager. So instead I chose react-query to fetch data from the endpoint.
+- I had to look for a map library, map-gl was the one that satisfied my needs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Room for improvement
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- I would've really liked more time to get tests going.
+- The styling is **very** basic.
+- I would've liked more times to add more filters. I guess date filters are the most important, so I prioritized those. There's already some code for filtering on launch status, but did not have time fix last issues.
+- Typescript added a little overhead because I had to type the API response.
