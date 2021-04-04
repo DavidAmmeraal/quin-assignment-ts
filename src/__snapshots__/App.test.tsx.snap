@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders 1`] = `
+<div>
+  <div
+    class="w-screen h-screen flex flex-col relative"
+  >
+    <header
+      class="p-2"
+    >
+      <h1
+        class="text-xl"
+      >
+        Launches map
+      </h1>
+    </header>
+    <form
+      class="w-screen p-2 flex space-x-2 items-center"
+    >
+      <label
+        for="launchStart"
+      >
+        Launches after
+      </label>
+      <input
+        class="p-2 rounded-md border-2 border-indigo-600"
+        id="launchStart"
+        max="2021-07-04"
+        type="date"
+        value="2021-04-04"
+      />
+      <label
+        for="launchEnd"
+      >
+        Launches before
+      </label>
+      <input
+        class="p-2 rounded-md border-2 border-indigo-600"
+        id="launchEnd"
+        min="2021-04-04"
+        type="date"
+        value="2021-07-04"
+      />
+      <label
+        for="launchStatus"
+      >
+        Launch status
+      </label>
+      <select
+        class="p-2 rounded-md border-2 border-indigo-600"
+        id="launchStatus"
+      >
+        <option
+          value="0"
+        >
+          Any
+        </option>
+        <option
+          value="3"
+        >
+          Success
+        </option>
+        <option
+          value="4"
+        >
+          Failed
+        </option>
+      </select>
+      <label
+        for="launchAgency"
+      >
+        Agency
+      </label>
+      <select
+        class="p-2 rounded-md border-2 border-indigo-600"
+        id="launchAgency"
+      >
+        <option
+          value=""
+        >
+          Any
+        </option>
+      </select>
+    </form>
+    <div
+      class="w-full h-full relative"
+    >
+      <div
+        class="absolute right-5 top-5"
+      />
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`shows popout for first first launch for given time frame 1`] = `
+<div
+  aria-labelledby="launchTitle_2"
+  class="bg-white p-5 rounded-md"
+  role="dialog"
+>
+  <h2
+    class="text-2xl"
+    id="launchTitle_2"
+  >
+    Nissan Volt
+  </h2>
+  <div>
+    <b>
+      Time: 
+    </b>
+    <span>
+      4/28/2021, 10:14:55
+    </span>
+  </div>
+  <div>
+    <b>
+      Agency: 
+    </b>
+    <span>
+      United Launch Alliance
+    </span>
+  </div>
+</div>
+`;
+
+exports[`when changing agency filter shows filtered results 1`] = `
+<div>
+  <div
+    class="w-screen h-screen flex flex-col relative"
+  >
+    <header
+      class="p-2"
+    >
+      <h1
+        class="text-xl"
+      >
+        Launches map
+      </h1>
+    </header>
+    <form
+      class="w-screen p-2 flex space-x-2 items-center"
+    >
+      <label
+        for="launchStart"
+      >
+        Launches after
+      </label>
+      <input
+        class="p-2 rounded-md border-2 border-indigo-600"
+        id="launchStart"
+        max="2021-07-04"
+        type="date"
+        value="2021-04-04"
+      />
+      <label
+        for="launchEnd"
+      >
+        Launches before
+      </label>
+      <input
+        class="p-2 rounded-md border-2 border-indigo-600"
+        id="launchEnd"
+        min="2021-04-04"
+        type="date"
+        value="2021-07-04"
+      />
+      <label
+        for="launchStatus"
+      >
+        Launch status
+      </label>
+      <select
+        class="p-2 rounded-md border-2 border-indigo-600"
+        id="launchStatus"
+      >
+        <option
+          value="0"
+        >
+          Any
+        </option>
+        <option
+          value="3"
+        >
+          Success
+        </option>
+        <option
+          value="4"
+        >
+          Failed
+        </option>
+      </select>
+      <label
+        for="launchAgency"
+      >
+        Agency
+      </label>
+      <select
+        class="p-2 rounded-md border-2 border-indigo-600"
+        id="launchAgency"
+      >
+        <option
+          value=""
+        >
+          Any
+        </option>
+      </select>
+    </form>
+    <div
+      class="w-full h-full relative"
+    >
+      <div
+        class="absolute right-5 top-5"
+      />
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when rendering a new selection, focusses on the first item of that selection and shows popout 1`] = `
+<div
+  aria-labelledby="launchTitle_70"
+  class="bg-white p-5 rounded-md"
+  role="dialog"
+>
+  <h2
+    class="text-2xl"
+    id="launchTitle_70"
+  >
+    Rolls Royce Explorer
+  </h2>
+  <div>
+    <b>
+      Time: 
+    </b>
+    <span>
+      9/1/2018, 02:19:45
+    </span>
+  </div>
+  <div>
+    <b>
+      Agency: 
+    </b>
+    <span>
+      United Launch Alliance
+    </span>
+  </div>
+</div>
+`;

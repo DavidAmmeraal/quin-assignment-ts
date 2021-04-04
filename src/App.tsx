@@ -1,31 +1,45 @@
 import React, { useState } from "react";
-import { QueryClientProvider, QueryClient } from "react-query";
-import { LaunchFilters } from "./api";
+import { Launch, LaunchFilters } from "./api";
 import "./App.css";
-import { Launches } from "./Launches";
-import { LaunchesLoading } from "./LaunchesLoading";
+import 'mapbox-gl/dist/mapbox-gl.css';
+import { LaunchMap } from "./LaunchesMap";
 import { LaunchFilter } from "./LaunchFilters";
+import { useLaunches } from "./useLaunches";
 
-const queryClient = new QueryClient();
+const defaultFilter = () => {
+  const dateStart = new Date();
+  const dateEnd = new Date(new Date().setMonth(dateStart.getMonth() + 3));
 
-const dateStart = new Date();
-const dateEnd = new Date(new Date().setMonth(dateStart.getMonth() + 3));
-
-const filter: LaunchFilters = {
-  dateStart: new Date(),
-  dateEnd,
+  return { 
+    dateStart,
+    dateEnd
+  };
 };
 
 function App() {
-  const [filters, setFilters] = useState<LaunchFilters>(filter);
+  const [filter, setFilter] = useState<LaunchFilters>(defaultFilter());
+
+  const { data, error } = useLaunches({ filter });
+  
+  const launches =
+    data?.pages.reduce((acc, curr) => {
+      return [...acc, ...curr.data];
+    }, [] as Launch[]) || [];
 
   return (
-    <QueryClientProvider client={queryClient}>
       <div className="w-screen h-screen flex flex-col relative">
-        <LaunchFilter filter={filters} onChange={setFilters} />
-        <Launches filter={filters} />
+        <header className="p-2">
+          <h1 className="text-xl">Launches map</h1>
+        </header>
+        <LaunchFilter filter={filter} onChange={setFilter} launches={launches} />
+        {!error ? (
+          <LaunchMap launches={launches} />
+        ) : (
+          <div className="w-full h-full" role="alert" id="error">
+            An error occurred, please try again later.
+          </div>
+        )}
       </div>
-    </QueryClientProvider>
   );
 }
 

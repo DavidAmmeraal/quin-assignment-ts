@@ -6,14 +6,15 @@ import { Launch } from "./api";
 
 type LaunchMarkerProps = {
   launch: Launch;
+  focus: boolean;
 };
 
 export const LaunchMarker: React.FC<LaunchMarkerProps> = (props) => {
   const context = React.useContext(MapContext);
 
-  const { launch } = props;
+  const { launch, focus } = props;
 
-  const [popperVisible, setPopperVisible] = useState(false);
+  const [popperVisible, setPopperVisible] = useState(focus);
   const [
     referenceElement,
     setReferenceElement,
@@ -21,32 +22,31 @@ export const LaunchMarker: React.FC<LaunchMarkerProps> = (props) => {
   const [popperElement, setPopperElement] = useState<HTMLDivElement | null>(
     null
   );
-  const [arrowElement, setArrowElement] = useState<HTMLDivElement | null>(null);
-  const { styles, attributes } = usePopper(referenceElement, popperElement, {
-    modifiers: [{ name: "arrow", options: { element: arrowElement } }],
-  });
+
+  const { styles, attributes } = usePopper(referenceElement, popperElement, {});
 
   const [x, y] =
     context.viewport?.project([launch.longitude, launch.latitude]) || [];
 
   const markerStyle: CSSProperties = {
     position: "absolute",
-    background: "#fff",
     left: x,
     top: y,
   };
 
   useEffect(() => {
+    if(focus) {
+      referenceElement?.focus();
+    }
+  }, [focus, referenceElement]);
+
+  useEffect(() => {
     const listener = (e: any) => {
       if (!popperElement?.contains(e.target) && e.target !== referenceElement) {
-        console.log(e.target);
         setPopperVisible(false);
       }
     };
-    if (popperVisible) {
-      window.addEventListener("click", listener);
-    }
-
+    window.addEventListener("click", listener);
     return () => {
       window.removeEventListener("click", listener);
     };
@@ -55,6 +55,9 @@ export const LaunchMarker: React.FC<LaunchMarkerProps> = (props) => {
   return (
     <>
       <div
+        tabIndex={0}
+        aria-label={`Launch ${launch.id}`}
+        role="button"
         ref={setReferenceElement}
         style={markerStyle}
         className="cursor-pointer"
@@ -65,7 +68,7 @@ export const LaunchMarker: React.FC<LaunchMarkerProps> = (props) => {
       {popperVisible && (
         <div
           ref={setPopperElement}
-          style={styles.popper}
+          style={{ ...styles.popper, zIndex: 99 }}
           {...attributes.popper}
         >
           <LaunchInfo launch={launch} />

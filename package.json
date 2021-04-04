@@ -14,6 +14,8 @@
     "@types/react-dom": "^17.0.0",
     "axios": "^0.21.1",
     "classnames": "^2.3.0",
+    "faker": "^5.5.2",
+    "openapi-typescript-codegen": "^0.9.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-map-gl": "^6.1.11",
@@ -28,7 +30,8 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "serve": "serve -s build"
+    "serve": "serve -s build",
+    "generate": "openapi --input https://lldev.thespacedevs.com/2.2.0/swagger?format=openapi --output ./src/generated"
   },
   "eslintConfig": {
     "extends": [
@@ -38,9 +41,8 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "defaults", 
+      "not ie 11"
     ],
     "development": [
       "last 1 chrome version",
@@ -51,6 +53,8 @@
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.4",
     "autoprefixer": "^9",
+    "mockdate": "^3.0.5",
+    "msw": "^0.28.1",
     "postcss": "^7",
     "serve": "^11.3.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"

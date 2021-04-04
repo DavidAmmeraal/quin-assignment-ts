@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 90,
+    "name": "Bugatti V90",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -86.5316816687708,
+      "longitude": -76.88578432917569
+    },
+    "status": "3",
+    "window_start": "2017-01-05T14:13:07.290Z",
+    "window_end": "2017-01-05T15:10:28.616Z"
+  },
+  {
+    "id": 1,
+    "name": "Land Rover Accord",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -18.459903718919165,
+      "longitude": 100.35556666194094
+    },
+    "status": "4",
+    "window_start": "2017-02-23T02:36:36.722Z",
+    "window_end": "2017-02-23T03:53:16.422Z"
+  },
+  {
+    "id": 97,
+    "name": "Kia Golf",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 75.80671904755144,
+      "longitude": 13.92465331917029
+    },
+    "status": "3",
+    "window_start": "2017-03-12T04:29:30.035Z",
+    "window_end": "2017-03-12T05:17:59.583Z"
+  },
+  {
+    "id": 85,
+    "name": "Jaguar LeBaron",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -74.31727306222564,
+      "longitude": 49.62777836511239
+    },
+    "status": "4",
+    "window_start": "2017-03-25T17:26:12.602Z",
+    "window_end": "2017-03-25T18:38:46.154Z"
+  },
+  {
+    "id": 34,
+    "name": "Mini Beetle",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -8.101350709213023,
+      "longitude": 6.754149944462398
+    },
+    "status": "4",
+    "window_start": "2017-04-08T07:05:13.327Z",
+    "window_end": "2017-04-08T08:31:01.681Z"
+  },
+  {
+    "id": 98,
+    "name": "Audi Escalade",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 7.8670628773110565,
+      "longitude": -62.67392654779172
+    },
+    "status": "4",
+    "window_start": "2017-04-25T02:19:38.522Z",
+    "window_end": "2017-04-25T03:01:32.948Z"
+  },
+  {
+    "id": 66,
+    "name": "Lamborghini Fiesta",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -6.620065427470607,
+      "longitude": -70.29458633588528
+    },
+    "status": "4",
+    "window_start": "2017-05-26T13:32:52.393Z",
+    "window_end": "2017-05-26T14:10:24.377Z"
+  },
+  {
+    "id": 67,
+    "name": "Jaguar Cruze",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -64.07476131240978,
+      "longitude": -44.23628089851519
+    },
+    "status": "3",
+    "window_start": "2017-06-21T03:30:20.172Z",
+    "window_end": "2017-06-21T04:48:21.635Z"
+  },
+  {
+    "id": 58,
+    "name": "Fiat Alpine",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 9.05984355062823,
+      "longitude": -132.9181164000218
+    },
+    "status": "3",
+    "window_start": "2017-06-27T13:55:45.790Z",
+    "window_end": "2017-06-27T15:08:03.078Z"
+  },
+  {
+    "id": 43,
+    "name": "Polestar Challenger",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 6.690371285198765,
+      "longitude": 66.585230993859
+    },
+    "status": "3",
+    "window_start": "2017-07-07T10:47:39.251Z",
+    "window_end": "2017-07-07T12:10:02.730Z"
+  },
+  {
+    "id": 42,
+    "name": "Cadillac Model T",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 66.30332395921627,
+      "longitude": 24.867453024112393
+    },
+    "status": "3",
+    "window_start": "2017-07-09T17:17:54.373Z",
+    "window_end": "2017-07-09T17:55:18.173Z"
+  },
+  {
+    "id": 41,
+    "name": "Honda Mercielago",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 4.611331353657263,
+      "longitude": -63.14516078544392
+    },
+    "status": "3",
+    "window_start": "2017-07-15T02:03:46.786Z",
+    "window_end": "2017-07-15T03:29:12.038Z"
+  },
+  {
+    "id": 39,
+    "name": "Chevrolet CX-9",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 42.10845978924851,
+      "longitude": -150.10855731465995
+    },
+    "status": "4",
+    "window_start": "2017-07-15T08:41:24.232Z",
+    "window_end": "2017-07-15T09:38:49.867Z"
+  },
+  {
+    "id": 93,
+    "name": "Polestar Mustang",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": 7.136740912756011,
+      "longitude": 63.6354320123954
+    },
+    "status": "3",
+    "window_start": "2017-08-09T14:48:15.277Z",
+    "window_end": "2017-08-09T15:25:39.790Z"
+  },
+  {
+    "id": 55,
+    "name": "Audi Mustang",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -54.810139582012425,
+      "longitude": 116.97093217715627
+    },
+    "status": "4",
+    "window_start": "2017-08-29T11:48:36.684Z",
+    "window_end": "2017-08-29T12:21:32.949Z"
+  },
+  {
+    "id": 9,
+    "name": "Maserati Challenger",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 79.69595646861859,
+      "longitude": -24.053278121520947
+    },
+    "status": "4",
+    "window_start": "2017-09-21T12:02:26.169Z",
+    "window_end": "2017-09-21T13:18:54.962Z"
+  },
+  {
+    "id": 24,
+    "name": "BMW 1",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 57.825865039740336,
+      "longitude": -138.32699776388563
+    },
+    "status": "4",
+    "window_start": "2017-10-25T03:48:54.568Z",
+    "window_end": "2017-10-25T05:05:26.434Z"
+  },
+  {
+    "id": 23,
+    "name": "Jaguar ATS",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 40.37958139093203,
+      "longitude": -173.44441409487573
+    },
+    "status": "3",
+    "window_start": "2017-12-06T15:40:09.231Z",
+    "window_end": "2017-12-06T17:05:11.696Z"
+  },
+  {
+    "id": 63,
+    "name": "Volvo Charger",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": 23.015346227817517,
+      "longitude": -110.0038058248643
+    },
+    "status": "3",
+    "window_start": "2017-12-10T21:43:35.423Z",
+    "window_end": "2017-12-10T23:00:39.666Z"
+  },
+  {
+    "id": 8,
+    "name": "Chevrolet Malibu",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 1.3569552599127803,
+      "longitude": -39.279723315363526
+    },
+    "status": "4",
+    "window_start": "2017-12-22T02:25:53.422Z",
+    "window_end": "2017-12-22T03:15:58.768Z"
+  },
+  {
+    "id": 59,
+    "name": "Land Rover A8",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -69.14398904903868,
+      "longitude": -135.73371731346808
+    },
+    "status": "3",
+    "window_start": "2017-12-31T18:06:05.178Z",
+    "window_end": "2017-12-31T19:06:07.130Z"
+  },
+  {
+    "id": 46,
+    "name": "Cadillac Fiesta",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": 4.187442011209569,
+      "longitude": -176.7628613763315
+    },
+    "status": "4",
+    "window_start": "2018-01-13T09:32:59.637Z",
+    "window_end": "2018-01-13T10:16:47.560Z"
+  },
+  {
+    "id": 28,
+    "name": "Smart Altima",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 59.19691113910801,
+      "longitude": -11.424714087134475
+    },
+    "status": "4",
+    "window_start": "2018-01-17T06:58:20.280Z",
+    "window_end": "2018-01-17T08:11:56.505Z"
+  },
+  {
+    "id": 22,
+    "name": "Mini Challenger",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -75.40582912108262,
+      "longitude": -108.18349973662946
+    },
+    "status": "3",
+    "window_start": "2018-01-24T20:54:19.140Z",
+    "window_end": "2018-01-24T22:16:40.061Z"
+  },
+  {
+    "id": 72,
+    "name": "Chrysler V90",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -64.40749821295401,
+      "longitude": 144.7931631511604
+    },
+    "status": "3",
+    "window_start": "2018-02-07T05:33:54.940Z",
+    "window_end": "2018-02-07T06:12:26.463Z"
+  },
+  {
+    "id": 82,
+    "name": "Chrysler Focus",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -59.91882379392189,
+      "longitude": -47.938242252308356
+    },
+    "status": "3",
+    "window_start": "2018-03-11T20:37:35.250Z",
+    "window_end": "2018-03-11T21:53:39.446Z"
+  },
+  {
+    "id": 16,
+    "name": "Land Rover Durango",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -20.675063456271957,
+      "longitude": -47.066945830948214
+    },
+    "status": "4",
+    "window_start": "2018-04-10T01:27:55.197Z",
+    "window_end": "2018-04-10T02:01:10.758Z"
+  },
+  {
+    "id": 5,
+    "name": "Jeep Roadster",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -16.104695360705477,
+      "longitude": 86.29120669970393
+    },
+    "status": "4",
+    "window_start": "2018-06-05T09:20:47.800Z",
+    "window_end": "2018-06-05T10:14:01.768Z"
+  },
+  {
+    "id": 18,
+    "name": "Tesla Cruze",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -29.258016439617855,
+      "longitude": 138.79021245024552
+    },
+    "status": "4",
+    "window_start": "2018-06-14T14:25:33.883Z",
+    "window_end": "2018-06-14T15:23:12.237Z"
+  },
+  {
+    "id": 14,
+    "name": "Dodge ATS",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -17.48715442506959,
+      "longitude": 44.21199992229299
+    },
+    "status": "3",
+    "window_start": "2018-06-26T21:45:17.946Z",
+    "window_end": "2018-06-26T23:03:42.322Z"
+  },
+  {
+    "id": 68,
+    "name": "Mazda Model S",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": 89.66586266105978,
+      "longitude": -4.102507803193902
+    },
+    "status": "3",
+    "window_start": "2018-07-04T14:42:53.912Z",
+    "window_end": "2018-07-04T16:00:43.924Z"
+  },
+  {
+    "id": 76,
+    "name": "Chevrolet El Camino",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 14.462512789576067,
+      "longitude": 115.503466210998
+    },
+    "status": "3",
+    "window_start": "2018-07-07T09:54:21.710Z",
+    "window_end": "2018-07-07T11:19:10.770Z"
+  },
+  {
+    "id": 70,
+    "name": "Rolls Royce Explorer",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 55.47005737328672,
+      "longitude": -83.3475570108001
+    },
+    "status": "3",
+    "window_start": "2018-09-01T00:19:45.752Z",
+    "window_end": "2018-09-01T00:58:16.863Z"
+  },
+  {
+    "id": 77,
+    "name": "Tesla Civic",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 11.409357004526626,
+      "longitude": 41.95940078304841
+    },
+    "status": "4",
+    "window_start": "2018-09-10T17:18:32.048Z",
+    "window_end": "2018-09-10T18:46:46.805Z"
+  },
+  {
+    "id": 36,
+    "name": "Dodge Roadster",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -50.06141309692997,
+      "longitude": 54.97767568060999
+    },
+    "status": "4",
+    "window_start": "2018-10-19T06:48:00.072Z",
+    "window_end": "2018-10-19T08:02:41.218Z"
+  },
+  {
+    "id": 74,
+    "name": "Bugatti Spyder",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -13.590255790776865,
+      "longitude": -1.5501612777019886
+    },
+    "status": "4",
+    "window_start": "2018-10-22T01:16:16.666Z",
+    "window_end": "2018-10-22T01:46:41.937Z"
+  },
+  {
+    "id": 87,
+    "name": "Lamborghini Fiesta",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 61.12797138248453,
+      "longitude": 173.2184530743292
+    },
+    "status": "3",
+    "window_start": "2018-11-24T07:19:31.672Z",
+    "window_end": "2018-11-24T07:49:37.560Z"
+  },
+  {
+    "id": 62,
+    "name": "Lamborghini Element",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": 5.548151000529856,
+      "longitude": -10.918448328587516
+    },
+    "status": "4",
+    "window_start": "2018-12-28T02:38:31.458Z",
+    "window_end": "2018-12-28T03:32:04.324Z"
+  },
+  {
+    "id": 84,
+    "name": "Fiat Model S",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -63.212230203211575,
+      "longitude": 14.026144990036585
+    },
+    "status": "4",
+    "window_start": "2019-01-12T11:58:12.799Z",
+    "window_end": "2019-01-12T13:11:50.774Z"
+  },
+  {
+    "id": 92,
+    "name": "Kia ATS",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -58.427276666207135,
+      "longitude": -87.89533943672333
+    },
+    "status": "3",
+    "window_start": "2019-02-23T06:24:18.089Z",
+    "window_end": "2019-02-23T07:31:03.971Z"
+  },
+  {
+    "id": 15,
+    "name": "Lamborghini Countach",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -56.71293768609516,
+      "longitude": 131.76060388755502
+    },
+    "status": "4",
+    "window_start": "2019-03-22T20:01:05.816Z",
+    "window_end": "2019-03-22T21:16:10.486Z"
+  },
+  {
+    "id": 7,
+    "name": "Ferrari Focus",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -26.53193218563355,
+      "longitude": -99.5908765916348
+    },
+    "status": "3",
+    "window_start": "2019-04-01T19:09:11.762Z",
+    "window_end": "2019-04-01T20:27:18.608Z"
+  },
+  {
+    "id": 30,
+    "name": "Dodge Corvette",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -4.469642570530411,
+      "longitude": -104.49792452147219
+    },
+    "status": "3",
+    "window_start": "2019-04-17T04:47:50.903Z",
+    "window_end": "2019-04-17T05:41:22.396Z"
+  },
+  {
+    "id": 47,
+    "name": "Hyundai Golf",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -88.8963988643619,
+      "longitude": 31.671401712016575
+    },
+    "status": "4",
+    "window_start": "2019-05-20T15:11:52.177Z",
+    "window_end": "2019-05-20T16:11:45.647Z"
+  },
+  {
+    "id": 88,
+    "name": "Chrysler Mercielago",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 59.99443538503766,
+      "longitude": -125.15996474592127
+    },
+    "status": "3",
+    "window_start": "2019-05-29T20:14:57.809Z",
+    "window_end": "2019-05-29T21:04:48.968Z"
+  },
+  {
+    "id": 25,
+    "name": "Porsche Charger",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -77.74089885159714,
+      "longitude": -175.31856886625508
+    },
+    "status": "4",
+    "window_start": "2019-06-01T03:29:39.688Z",
+    "window_end": "2019-06-01T04:38:19.096Z"
+  },
+  {
+    "id": 86,
+    "name": "Mazda LeBaron",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 86.9478316225227,
+      "longitude": -55.47789763922724
+    },
+    "status": "3",
+    "window_start": "2019-06-09T04:04:52.902Z",
+    "window_end": "2019-06-09T05:07:20.897Z"
+  },
+  {
+    "id": 40,
+    "name": "Maserati F-150",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -62.93145537463968,
+      "longitude": 13.99192045268876
+    },
+    "status": "3",
+    "window_start": "2019-06-15T12:41:59.242Z",
+    "window_end": "2019-06-15T14:01:57.065Z"
+  },
+  {
+    "id": 99,
+    "name": "Chevrolet 911",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -86.64621681180104,
+      "longitude": 101.69440538716123
+    },
+    "status": "4",
+    "window_start": "2019-06-22T05:24:57.545Z",
+    "window_end": "2019-06-22T06:25:54.645Z"
+  },
+  {
+    "id": 20,
+    "name": "Cadillac Camry",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -22.684394284115527,
+      "longitude": 149.10492304776244
+    },
+    "status": "4",
+    "window_start": "2019-07-10T13:39:46.393Z",
+    "window_end": "2019-07-10T14:18:29.594Z"
+  },
+  {
+    "id": 27,
+    "name": "BMW Model S",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -22.515877218784553,
+      "longitude": 59.07079179357217
+    },
+    "status": "4",
+    "window_start": "2019-07-15T20:03:33.136Z",
+    "window_end": "2019-07-15T21:13:15.289Z"
+  },
+  {
+    "id": 10,
+    "name": "Hyundai Beetle",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -85.56973685641528,
+      "longitude": 20.668134890877496
+    },
+    "status": "3",
+    "window_start": "2019-07-18T06:32:17.939Z",
+    "window_end": "2019-07-18T07:49:35.489Z"
+  },
+  {
+    "id": 3,
+    "name": "Chevrolet Camry",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 61.26858654404512,
+      "longitude": -28.240023667444916
+    },
+    "status": "4",
+    "window_start": "2019-07-23T18:49:26.489Z",
+    "window_end": "2019-07-23T20:01:04.998Z"
+  },
+  {
+    "id": 32,
+    "name": "Bentley F-150",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 74.43589248437675,
+      "longitude": 45.900178717420914
+    },
+    "status": "4",
+    "window_start": "2019-07-28T13:50:56.723Z",
+    "window_end": "2019-07-28T15:05:55.656Z"
+  },
+  {
+    "id": 95,
+    "name": "Ford XTS",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -20.453592488089484,
+      "longitude": 130.46740215075204
+    },
+    "status": "3",
+    "window_start": "2019-08-11T17:51:31.776Z",
+    "window_end": "2019-08-11T18:28:19.218Z"
+  },
+  {
+    "id": 73,
+    "name": "Ford Model T",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -51.30152626425221,
+      "longitude": -96.42620660028149
+    },
+    "status": "3",
+    "window_start": "2019-08-15T12:56:47.985Z",
+    "window_end": "2019-08-15T14:15:03.988Z"
+  },
+  {
+    "id": 35,
+    "name": "Mercedes Benz Element",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -19.487001150085476,
+      "longitude": 84.7622141136817
+    },
+    "status": "4",
+    "window_start": "2019-08-22T22:37:20.842Z",
+    "window_end": "2019-08-22T23:13:47.412Z"
+  },
+  {
+    "id": 29,
+    "name": "Kia Corvette",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -62.89253181390774,
+      "longitude": -16.397594493441744
+    },
+    "status": "3",
+    "window_start": "2019-09-09T22:46:35.999Z",
+    "window_end": "2019-09-09T23:40:19.200Z"
+  },
+  {
+    "id": 31,
+    "name": "Nissan Escalade",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -8.364827779249069,
+      "longitude": 37.59020376032316
+    },
+    "status": "4",
+    "window_start": "2019-10-05T13:53:17.114Z",
+    "window_end": "2019-10-05T15:02:28.525Z"
+  },
+  {
+    "id": 37,
+    "name": "Audi Alpine",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 44.301883742540724,
+      "longitude": -157.22621045976024
+    },
+    "status": "3",
+    "window_start": "2019-11-27T17:49:51.602Z",
+    "window_end": "2019-11-27T19:19:39.448Z"
+  },
+  {
+    "id": 33,
+    "name": "Volvo PT Cruiser",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -69.35915885321873,
+      "longitude": 113.34618424168985
+    },
+    "status": "4",
+    "window_start": "2019-12-26T01:10:06.223Z",
+    "window_end": "2019-12-26T01:50:28.792Z"
+  },
+  {
+    "id": 54,
+    "name": "Polestar Mustang",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 65.52602421875133,
+      "longitude": -27.43523180420962
+    },
+    "status": "3",
+    "window_start": "2020-01-07T19:32:57.230Z",
+    "window_end": "2020-01-07T20:51:07.188Z"
+  },
+  {
+    "id": 94,
+    "name": "Chrysler Escalade",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -24.989597699547176,
+      "longitude": 50.65121810652039
+    },
+    "status": "4",
+    "window_start": "2020-02-07T11:15:19.202Z",
+    "window_end": "2020-02-07T12:18:21.793Z"
+  },
+  {
+    "id": 80,
+    "name": "Volkswagen Countach",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -13.29631322844483,
+      "longitude": -85.5950520312163
+    },
+    "status": "4",
+    "window_start": "2020-02-24T04:28:50.349Z",
+    "window_end": "2020-02-24T05:47:38.200Z"
+  },
+  {
+    "id": 96,
+    "name": "Toyota Explorer",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -79.32604650878704,
+      "longitude": 91.13870108985748
+    },
+    "status": "4",
+    "window_start": "2020-02-24T06:36:32.031Z",
+    "window_end": "2020-02-24T07:26:00.319Z"
+  },
+  {
+    "id": 48,
+    "name": "Toyota Mustang",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -10.52793162047567,
+      "longitude": -26.86866398453023
+    },
+    "status": "3",
+    "window_start": "2020-03-26T00:52:09.684Z",
+    "window_end": "2020-03-26T02:11:11.525Z"
+  },
+  {
+    "id": 78,
+    "name": "Chrysler ATS",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 22.721544987665325,
+      "longitude": -99.94303485738857
+    },
+    "status": "4",
+    "window_start": "2020-04-14T11:15:04.895Z",
+    "window_end": "2020-04-14T12:31:45.054Z"
+  },
+  {
+    "id": 19,
+    "name": "Maserati PT Cruiser",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 59.66254910009073,
+      "longitude": 26.629817273869094
+    },
+    "status": "4",
+    "window_start": "2020-06-09T11:33:24.260Z",
+    "window_end": "2020-06-09T13:01:29.219Z"
+  },
+  {
+    "id": 61,
+    "name": "Fiat Model 3",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": 58.58577669092895,
+      "longitude": 22.581859252550913
+    },
+    "status": "4",
+    "window_start": "2020-06-18T15:29:24.184Z",
+    "window_end": "2020-06-18T16:21:15.921Z"
+  },
+  {
+    "id": 38,
+    "name": "Tesla F-150",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -67.66425049618658,
+      "longitude": -129.16507887815231
+    },
+    "status": "3",
+    "window_start": "2020-08-16T14:50:40.479Z",
+    "window_end": "2020-08-16T15:49:12.611Z"
+  },
+  {
+    "id": 49,
+    "name": "Rolls Royce Land Cruiser",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -13.044253258310889,
+      "longitude": -29.35791375316714
+    },
+    "status": "4",
+    "window_start": "2020-09-10T00:31:08.791Z",
+    "window_end": "2020-09-10T01:10:43.172Z"
+  },
+  {
+    "id": 45,
+    "name": "Mercedes Benz Accord",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 8.019200114131962,
+      "longitude": -50.33654964778475
+    },
+    "status": "3",
+    "window_start": "2020-09-11T03:11:07.879Z",
+    "window_end": "2020-09-11T03:55:59.460Z"
+  },
+  {
+    "id": 12,
+    "name": "Audi 1",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 2.1538019980289818,
+      "longitude": -155.63325137978723
+    },
+    "status": "4",
+    "window_start": "2020-09-22T12:24:40.670Z",
+    "window_end": "2020-09-22T13:23:22.173Z"
+  },
+  {
+    "id": 4,
+    "name": "Rolls Royce Malibu",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -87.84901118161277,
+      "longitude": 134.29971648232782
+    },
+    "status": "3",
+    "window_start": "2020-10-21T20:03:06.188Z",
+    "window_end": "2020-10-21T21:13:13.955Z"
+  },
+  {
+    "id": 13,
+    "name": "Dodge F-150",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -39.07613575787266,
+      "longitude": 34.82434136807157
+    },
+    "status": "4",
+    "window_start": "2020-11-06T02:56:28.358Z",
+    "window_end": "2020-11-06T03:45:44.766Z"
+  },
+  {
+    "id": 71,
+    "name": "Volvo LeBaron",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -23.43563977105906,
+      "longitude": -178.50847118806294
+    },
+    "status": "3",
+    "window_start": "2020-11-07T00:10:19.337Z",
+    "window_end": "2020-11-07T01:31:56.135Z"
+  },
+  {
+    "id": 60,
+    "name": "Fiat A8",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": 11.275584749017412,
+      "longitude": 46.2575679816008
+    },
+    "status": "4",
+    "window_start": "2020-11-25T09:38:41.410Z",
+    "window_end": "2020-11-25T11:04:57.889Z"
+  },
+  {
+    "id": 0,
+    "name": "Toyota Challenger",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 23.560049215864936,
+      "longitude": 59.770087368151394
+    },
+    "status": "4",
+    "window_start": "2020-12-07T12:06:14.140Z",
+    "window_end": "2020-12-07T13:25:56.202Z"
+  },
+  {
+    "id": 83,
+    "name": "Hyundai Expedition",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -16.61862970952771,
+      "longitude": 151.1576095623638
+    },
+    "status": "4",
+    "window_start": "2020-12-16T08:01:41.668Z",
+    "window_end": "2020-12-16T09:22:49.817Z"
+  },
+  {
+    "id": 26,
+    "name": "Tesla Countach",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -78.3568285791641,
+      "longitude": -149.8223301933752
+    },
+    "status": "4",
+    "window_start": "2020-12-17T06:10:00.066Z",
+    "window_end": "2020-12-17T07:13:04.556Z"
+  },
+  {
+    "id": 56,
+    "name": "Dodge A4",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -31.056289206873224,
+      "longitude": 106.69324326579255
+    },
+    "status": "3",
+    "window_start": "2020-12-22T20:25:10.268Z",
+    "window_end": "2020-12-22T21:03:21.982Z"
+  },
+  {
+    "id": 44,
+    "name": "Porsche Mercielago",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": 68.33763201748673,
+      "longitude": -77.03124355929602
+    },
+    "status": "4",
+    "window_start": "2021-01-19T10:21:51.212Z",
+    "window_end": "2021-01-19T11:48:42.361Z"
+  },
+  {
+    "id": 75,
+    "name": "Maserati Silverado",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 15.751954735983816,
+      "longitude": -173.64418231128752
+    },
+    "status": "3",
+    "window_start": "2021-01-31T07:22:15.131Z",
+    "window_end": "2021-01-31T08:49:47.953Z"
+  },
+  {
+    "id": 79,
+    "name": "Cadillac Silverado",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 75.48288266072382,
+      "longitude": 172.98494919994408
+    },
+    "status": "4",
+    "window_start": "2021-02-01T05:15:11.320Z",
+    "window_end": "2021-02-01T05:52:02.289Z"
+  },
+  {
+    "id": 53,
+    "name": "Ferrari Element",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -82.21121409927345,
+      "longitude": -99.04107872708637
+    },
+    "status": "3",
+    "window_start": "2021-03-06T19:02:59.192Z",
+    "window_end": "2021-03-06T20:10:35.094Z"
+  },
+  {
+    "id": 89,
+    "name": "Land Rover Alpine",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 42.824197846020894,
+      "longitude": 162.6424977888371
+    },
+    "status": "4",
+    "window_start": "2021-03-16T23:55:07.559Z",
+    "window_end": "2021-03-17T00:43:45.827Z"
+  },
+  {
+    "id": 2,
+    "name": "Nissan Volt",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 36.66341442951588,
+      "longitude": 94.73210070748684
+    },
+    "status": "3",
+    "window_start": "2021-04-28T08:14:55.095Z",
+    "window_end": "2021-04-28T09:29:45.976Z"
+  },
+  {
+    "id": 57,
+    "name": "Aston Martin Impala",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -82.00748980691303,
+      "longitude": 178.83854533937534
+    },
+    "status": "3",
+    "window_start": "2021-05-26T13:51:30.670Z",
+    "window_end": "2021-05-26T14:23:49.062Z"
+  },
+  {
+    "id": 81,
+    "name": "Smart F-150",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 14.449558261061597,
+      "longitude": -145.48095965808506
+    },
+    "status": "3",
+    "window_start": "2021-06-20T04:30:23.716Z",
+    "window_end": "2021-06-20T05:47:28.790Z"
+  },
+  {
+    "id": 21,
+    "name": "Polestar XC90",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": 10.073924917611976,
+      "longitude": -173.48567379722226
+    },
+    "status": "3",
+    "window_start": "2021-06-26T02:24:45.587Z",
+    "window_end": "2021-06-26T03:03:21.604Z"
+  },
+  {
+    "id": 17,
+    "name": "Volkswagen Escalade",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -31.137338514928757,
+      "longitude": -37.33807930477812
+    },
+    "status": "4",
+    "window_start": "2021-07-31T21:27:39.165Z",
+    "window_end": "2021-07-31T22:05:10.540Z"
+  },
+  {
+    "id": 65,
+    "name": "Cadillac Challenger",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -55.117011053153405,
+      "longitude": 79.54805482379425
+    },
+    "status": "3",
+    "window_start": "2021-08-31T14:24:53.858Z",
+    "window_end": "2021-08-31T15:36:38.758Z"
+  },
+  {
+    "id": 11,
+    "name": "Bugatti Model S",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": -34.19880018355463,
+      "longitude": -128.58778096301708
+    },
+    "status": "3",
+    "window_start": "2021-09-24T11:19:23.529Z",
+    "window_end": "2021-09-24T11:50:57.365Z"
+  },
+  {
+    "id": 6,
+    "name": "Dodge Expedition",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -25.804840957960536,
+      "longitude": -99.59448064554931
+    },
+    "status": "3",
+    "window_start": "2021-09-25T07:20:15.226Z",
+    "window_end": "2021-09-25T07:53:44.101Z"
+  },
+  {
+    "id": 64,
+    "name": "Bugatti Mercielago",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": -40.21725706592915,
+      "longitude": 99.37447761226298
+    },
+    "status": "3",
+    "window_start": "2021-09-27T05:41:18.550Z",
+    "window_end": "2021-09-27T06:49:20.199Z"
+  },
+  {
+    "id": 69,
+    "name": "Bugatti Challenger",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 54.09921918400832,
+      "longitude": -98.56175389839136
+    },
+    "status": "3",
+    "window_start": "2021-10-08T00:28:44.212Z",
+    "window_end": "2021-10-08T01:22:46.555Z"
+  },
+  {
+    "id": 51,
+    "name": "BMW Grand Cherokee",
+    "launch_service_provider": {
+      "id": "3",
+      "name": "Arianespace"
+    },
+    "pad": {
+      "latitude": 33.19417405514089,
+      "longitude": -13.623716441352855
+    },
+    "status": "4",
+    "window_start": "2021-10-25T09:32:16.955Z",
+    "window_end": "2021-10-25T10:51:13.986Z"
+  },
+  {
+    "id": 50,
+    "name": "Kia Prius",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -65.97409665460144,
+      "longitude": -118.68301694620226
+    },
+    "status": "4",
+    "window_start": "2021-11-21T03:18:59.252Z",
+    "window_end": "2021-11-21T04:30:35.542Z"
+  },
+  {
+    "id": 52,
+    "name": "Bugatti Fortwo",
+    "launch_service_provider": {
+      "id": "1",
+      "name": "Space X"
+    },
+    "pad": {
+      "latitude": -43.44587104757899,
+      "longitude": -127.3922954769316
+    },
+    "status": "4",
+    "window_start": "2021-11-22T12:26:00.974Z",
+    "window_end": "2021-11-22T13:06:06.537Z"
+  },
+  {
+    "id": 91,
+    "name": "Chevrolet Escalade",
+    "launch_service_provider": {
+      "id": "2",
+      "name": "United Launch Alliance"
+    },
+    "pad": {
+      "latitude": 40.089791835672884,
+      "longitude": 100.71004013401807
+    },
+    "status": "3",
+    "window_start": "2021-12-04T15:20:59.503Z",
+    "window_end": "2021-12-04T16:45:45.080Z"
+  }
+]

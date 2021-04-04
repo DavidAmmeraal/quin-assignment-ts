@@ -6,16 +6,20 @@ type LaunchInfoProps = {
 };
 
 export const LaunchInfo = (props: LaunchInfoProps) => {
+  const labelId = `launchTitle_${props.launch.id}`;
   return (
-    <div className="bg-white">
-      <h2 className="text-2xl">{props.launch.name}</h2>
+    <div className="bg-white p-5 rounded-md"
+      role="dialog"
+      aria-labelledby={labelId}
+    >
+      <h2 id={labelId} className="text-2xl">{props.launch.name}</h2>
       <div>
         <b>Time: </b>
-        <span>{props.launch.windowStart.toTimeString()}</span>
+        <span>{props.launch.windowStart.toLocaleString()}</span>
       </div>
       <div>
         <b>Agency: </b>
-        <span>{props.launch.agency}</span>
+        <span>{props.launch.agencyName}</span>
       </div>
     </div>
   );
