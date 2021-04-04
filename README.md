@@ -22,6 +22,12 @@ To build
 yarn build
 ```
 
+To tst
+
+```
+yarn test
+```
+
 ## Implemented
 
 - A map showing all launches for a given timeframe, can be narrowed down using the date filters.
