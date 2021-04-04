@@ -30,9 +30,6 @@ export const LaunchMap: React.FC<LaunchesMapProps> = (props) => {
 
   return (
     <div className="w-full h-full relative">
-      <div className="absolute right-5 top-5">
-        <LaunchesLoading />
-      </div>
       <ReactMapGL
         {...viewport}
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
@@ -44,6 +41,9 @@ export const LaunchMap: React.FC<LaunchesMapProps> = (props) => {
           <LaunchMarker key={launch.id} launch={launch} focus={index === 0}/>
         ))}
       </ReactMapGL>
+      <div className="absolute right-5 top-5">
+        <LaunchesLoading />
+      </div>
     </div>
   );
 };
