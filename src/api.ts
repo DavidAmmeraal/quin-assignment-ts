@@ -26,7 +26,7 @@ export async function fetchLaunches(args: LaunchFilters & {
   const { dateStart, dateEnd, pageParam = 0, limit = 10, status = undefined, agencyId } = args;
 
   const params = {
-    status,
+    status: status === "0" ? undefined : status,
     window_start__gte: dateStart,
     window_end__lte: dateEnd,
     offset: pageParam,
