@@ -48,6 +48,10 @@ yarn build
 - I would've liked more times to add more filters. I guess date filters are the most important, so I prioritized those. There's already some code for filtering on launch status, but did not have time fix last issues.
 - Typescript added a little overhead because I had to type the API response.
 
+## Update 2 (Outside of time limit)
+
+I added a test suite into a separate [branch](https://github.com/DavidAmmeraal/quin-assignment-ts/tree/tests).
+
 ## Update 1 (Outside of time limit)
 
 Now I have some more time I would like to ellaborate on some of my design choices:
