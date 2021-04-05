@@ -30,8 +30,9 @@ export const LaunchMarker: React.FC<LaunchMarkerProps> = (props) => {
 
   const markerStyle: CSSProperties = {
     position: "absolute",
-    left: x,
-    top: y,
+    left: 0,
+    top: 0,
+    transform: `translate3d(${x}px, ${y}px, 0)`,
   };
 
   useEffect(() => {

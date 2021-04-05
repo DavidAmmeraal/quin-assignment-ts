@@ -59,5 +59,8 @@
     "postcss": "^7",
     "serve": "^11.3.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }

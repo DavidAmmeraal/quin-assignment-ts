@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useInfiniteQuery } from "react-query";
 import { fetchLaunches, LaunchFilters } from "./api";
 
@@ -21,11 +20,9 @@ export const useLaunches = ({ filter}: UseLaunchesOptions) => {
      }
    })
 
-  useEffect(() => {
-    if(!isFetchingNextPage && hasNextPage) {
-      fetchNextPage();
-    }
-  }, [isFetchingNextPage, hasNextPage, fetchNextPage])
+  if(hasNextPage && !isFetchingNextPage) {
+    fetchNextPage();
+  }
 
   return {
     data,

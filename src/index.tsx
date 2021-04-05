@@ -7,8 +7,8 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 
 // Start the mocking conditionally.
 if (process.env.NODE_ENV === 'development') {
-  const { worker } = require('./testing/browser')
-  worker.start()
+  const { worker } = require('./testing/browser');
+  worker.start();
 }
 
 const queryClient = new QueryClient({
